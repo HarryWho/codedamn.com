@@ -1,7 +1,8 @@
 const express = require('express')
 const router = express.Router()
-const home = require('./default')
 
-router.use('/', home)
+router.get('/', (req, res) => {
+    res.render('home/index')
+})
 
 module.exports = router

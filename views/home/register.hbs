@@ -1,0 +1,30 @@
+{{>stickyheader}}
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<div class="contact-form">
+	<form class="contact_form" action="/register" method="post" name="contact_form">
+		<h1>Login Into Your Account</h1>
+	    <ul>
+	        <li>
+	            <input type="text" class="textbox1" name="username" placeholder="Username" autocomplete="false">
+	             <p><img src="https://p.w3layouts.com/demos/facebook_twitter_google_login/web/images/contact.png" alt=""></p>
+	        </li>
+            <li>
+	            <input type="email" class="textbox1" name="username" placeholder="Email ID" autocomplete="false">
+	             <p><img src="https://p.w3layouts.com/demos/facebook_twitter_google_login/web/images/contact.png" alt=""></p>
+	        </li>
+	        <li>
+	            <input type="password" name="password" class="textbox2" placeholder="Password">
+	            <p><img src="https://p.w3layouts.com/demos/facebook_twitter_google_login/web/images/lock.png" alt=""></p>
+	        </li>
+            <li>
+	            <input type="password" name="cpassword" class="textbox2" placeholder="Confirm Password">
+	            <p><img src="https://p.w3layouts.com/demos/facebook_twitter_google_login/web/images/lock.png" alt=""></p>
+	        </li>
+         </ul>
+         <div id="captcha">
+            <div class="g-recaptcha" data-sitekey="6Lel8U8UAAAAAPZlTTEo6LRv2H59m-uNcuJQudAX"></div>
+         </div>
+       	 	<input type="submit" name="register" value="Register">
+	</form>	
+</div>

@@ -257,7 +257,7 @@ div#centerText1 {
 }
 
 .fullcol .image img {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .fullcol .content {
@@ -325,8 +325,8 @@ div#centerText1 {
 #footer {
     display: flex;
     color: #bbc0c4;
-    padding-top: 30px;
-    padding-bottom: 45px;
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 #footer a {
