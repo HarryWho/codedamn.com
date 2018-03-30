@@ -3,7 +3,7 @@ const app = express()
 const bodyParser = require('body-parser')
 const path = require('path')
 const exphbs = require('express-handlebars')
-const routes = require('./others/routes')
+const routes = require('./controllers')
 const helmet = require('helmet')
 const debug = require('debug')('cd:index')
 
@@ -27,7 +27,7 @@ app.engine('.hbs', exphbs({
 app.set('view engine', '.hbs')
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
-app.use('/', routes)
+app.use(routes)
 app.use(helmet())
 
 app.listen(1337, () => debug('Server up and running at localhost:1337'))

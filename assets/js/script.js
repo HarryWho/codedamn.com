@@ -25,7 +25,7 @@ function doScrolling(element, duration) {
 }
 
 
-$('#more').addEventListener('click', _ => doScrolling($('#info'), 400), false)
+$('#more').addEventListener('click', _ => doScrolling($('#intro'), 400), false)
 const bg = $('#background')
 let opacity = 1
 
