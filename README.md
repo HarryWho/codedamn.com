@@ -23,5 +23,8 @@ export const reCAPTCHAsecret = "SOME_RANDOM_KEY"
 3. Use tabs and not spaces :)
 4. Use curly brace on the same line like `function damnit() {` :)
 
+# Pull Requests Needed
+Please check the issues tab for available things you can work on and be a contributor to codedamn.com!
+
 Cheers!
 </>
