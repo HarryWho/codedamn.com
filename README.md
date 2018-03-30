@@ -18,7 +18,7 @@ export const reCAPTCHAsecret = "SOME_RANDOM_KEY"
 6. Once everything is done, run `nodemon` command which will pick up configs from supplied `nodemon.json` file and setup live reloading for `.ts` code.
 
 ## Instructions
-1. The site uses TypeScript to enforce proper JavaScript code. [https://www.youtube.com/watch?v=hADI92zCIvE&list=PLYxzS__5yYQkX-95LHG5EDxPj3tVvVmRd](Give it a look) if you need an intro to TypeScript
+1. The site uses TypeScript to enforce proper JavaScript code. (https://www.youtube.com/watch?v=hADI92zCIvE&list=PLYxzS__5yYQkX-95LHG5EDxPj3tVvVmRd)[Give it a look] if you need an intro to TypeScript
 2. Please make sure your pull request is compatible with the flow and code structure of the overall site.
 3. Use tabs and not spaces :)
 4. Use curly brace on the same line like `function damnit() {` :)
